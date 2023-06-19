@@ -1,0 +1,72 @@
+body {
+    background-image: url("../image/bg-repeat.jpg");
+    background-size: contain;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .information{
+    color: #fff;
+    max-width: 300px;
+    margin: 0 60px;
+}
+.container .information h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.container .information p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 11px;
+}
+
+.container .form{
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    border-radius: 15px;
+}
+.container .form .campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form .campos input{
+    height: 35px;    
+}
+.container .form .campos .itens{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 8px;
+    color: #A8A8A8;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 0 20px;
+    margin-top: 15px;
+}
+.container .form .campos .itens.preenchido-errado{
+
+}
+.container .form .campos .itens.preenchido-errado{
+
+}
+
+.container .form .campos p{
+    font-size: 1.5rem;
+    margin: 7px 20px;
+    color: black;
+    font-weight: 400;
+    
+}
+.container .form .campos button.itens{
+    height: 41px;    
+    border: none;
+    color: #fff;
+    background-color: #3CCC87;
+}
