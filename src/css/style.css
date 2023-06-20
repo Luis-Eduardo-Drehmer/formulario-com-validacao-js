@@ -29,12 +29,13 @@ body {
 .container .form{
     background-color: #fff;
     width: 340px;
-    height: 378px;
+    min-height: 378px;
     border-radius: 15px;
 }
 .container .form .campos{
     display: flex;
     flex-direction: column;
+    margin: 15px 0;
 }
 
 .container .form .campos input{
@@ -48,25 +49,54 @@ body {
     border: 1px solid #000000;
     border-radius: 5px;
     margin: 0 20px;
-    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container .form .campos textarea.itens{
+    margin-bottom: 0;
+}
+.container .form .campos .itens.preenchido-correto{
+    border-color: #00C22B;
 }
 .container .form .campos .itens.preenchido-errado{
-
-}
-.container .form .campos .itens.preenchido-errado{
-
+    border-color: #F52E2E;
+    margin-bottom: 0;
 }
 
+.container .form .campos .mensagem-campo-obrigatorio{
+    display: none;
+}
+
+.container .form .campos .mensagem-campo-obrigatorio.ativo{
+    font-size: 1rem;
+    color: #F52E2E;
+    font-weight: 400;
+    margin: 0 20px;
+    margin-bottom: 7px;
+    display: block;
+}
 .container .form .campos p{
     font-size: 1.5rem;
-    margin: 7px 20px;
+    margin: 7px 20px 15px;
     color: black;
     font-weight: 400;
     
 }
-.container .form .campos button.itens{
+.container .form .campos button#button-submit{
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 41px;        
+    border: none;
+    border-radius: 5px;
+    margin: 0 20px;
+    color: #fff;
+    background-color: #3CCC87;
+    cursor: pointer;
+}
+/* .container .form .campos p.itens{
     height: 41px;    
     border: none;
     color: #fff;
     background-color: #3CCC87;
-}
+    text-align: center;
+    padding: 11px 0;
+} */
