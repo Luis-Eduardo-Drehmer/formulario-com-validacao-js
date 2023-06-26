@@ -51,7 +51,7 @@ Os usuários devem ser capazes de:
 1. HTML:
     - Aprofundei meu conhecimento nas tags HTML voltadas a elementos de formulário; 
 2. JavaScript:
-    - Aprendi a verificar, adicionar e remover classes dos elemeentos HTML;
+    - Aprendi a verificar, adicionar e remover classes dos elementos HTML;
     - Adicionar eventos aos elementos;
     - O uso do **forEach()** em uma lista;
 
