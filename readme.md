@@ -8,7 +8,7 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Feito com](#feito-com)
+  - [Feito com](#construção)
   - [O que eu aprendi](#o-que-eu-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)  
 - [Autor](#autor)
@@ -22,7 +22,7 @@ Os usuários devem ser capazes de:
 - Veja o layout ideal para a página, dependendo do tamanho da tela do dispositivo.
 - Criar um formulário com os seguintes condições:
     - Caso preenchido deve ficar em verde as bordas do inputs
-    - Caso esteja vazio deve ficar com as bordas em vermelho e apresentar um texto ***Campo obigatório*** em vermelho
+    - Caso esteja vazio deve ficar com as bordas em vermelho e apresentar um texto ***Campo obrigatório*** em vermelho
 
 ### Screenshot
 
@@ -57,7 +57,7 @@ Os usuários devem ser capazes de:
 
 ### Desenvolvimento contínuo
 
-Para os próximos projetos quero focar em melhorar e aprofundar meu conhecimento em JavaScrits
+Para os próximos projetos quero focar em melhorar e aprofundar meu conhecimento em JavaScript
 
 
 ## Autor
